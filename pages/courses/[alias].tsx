@@ -8,8 +8,7 @@ import { ParsedUrlQuery } from "querystring";
 import { ProductModel } from "@/interfaces/product.interface";
 
 function Course({menu,page, products}: CourseProps) {
-  const [counter, setCounter] = useState<number>(0);
-  const [rating, setRating] = useState<number>(0)
+  
   return(
       <>
         
@@ -44,7 +43,7 @@ export const getStaticProps: GetStaticProps<CourseProps> = async ({ params }: Ge
 }
 
 
-interface CourseProps extends Record<string, unknown>{
+interface CourseProps extends Record<string, unknown> {
   menu: MenuItem[],
   firstCategory: number,
   page: TopPageModel,
