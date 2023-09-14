@@ -1,0 +1,15 @@
+.Paragraph{
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    color: var(--black);
+}
+.S{
+    font-size: 14px;
+}
+.M{
+    font-size: 16px;
+}
+.L{
+    font-size: 18px;
+}
